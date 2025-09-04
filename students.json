@@ -1,0 +1,7 @@
+{"S001":{"Name":"Savera Rizwan", "Age": 22 , "Degree":"Software Engineering","CGPA":3.679},
+"S002":{"Name":"Aamna Iqbal", "Age": 21 , "Degree":"Software Engineering","CGPA":3.590}, 
+"S003":{"Name":"Zainab", "Age": 21 , "Degree":"Software Engineering","CGPA":3.523},
+"S004":{"Name":"Shiza Rizwan", "Age": 19 , "Degree":"MBBS","CGPA":3.890},
+"S005":{"Name":"M. Haroon Ali", "Age": 19 , "Degree":"Architecture","CGPA":3.231},
+"S006":{"Name":"M. Usman Ali", "Age": 4 , "Degree":"Commerce","CGPA":3.782}
+}
