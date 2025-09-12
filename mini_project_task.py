@@ -184,17 +184,17 @@ def get_student_stats():
             "count_per_department": {}
         }
 
-    # Calculate average age
+    # calculate avg age
     total_age = sum(student.get("age", 0) for student in data.values())
     average_age = total_age / total_students
 
-    # Count per department
+    # count per dept
     count_per_department = defaultdict(int)
     for student in data.values():
         dept = student.get("department")
         count_per_department[dept] += 1
 
-    # Convert defaultdict to normal dict
+    # defaultdict to normal dict
     count_per_department = dict(count_per_department)
 
     return {
